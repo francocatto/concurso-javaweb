@@ -4,4 +4,12 @@
 
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>HobbyPage</servlet-name>
+        <servlet-class>HobbyPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HobbyPage</servlet-name>
+        <url-pattern>HobbyPage.do</url-pattern>
+    </servlet-mapping>
 </web-app>
